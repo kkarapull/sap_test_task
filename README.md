@@ -21,6 +21,12 @@ You will also get a permanent link to access an application
 
     /terraform/generated/aws/
 
+    - Two EC2 instances with running application
+    - AutoScaling Group
+    - Application Load Balancer with Round Robin load distribution principle 
+    - VPC with 4 public subnets, SG's, NACL and RT
+    - IAM 
+
 4) Using Terraformer, it is possible to generate Terraform code based on existing infrastructure (reverse Terraform). 
    Later it will be possible to run an manage AWS infrastructure with Terraform with IaC approach 
 
